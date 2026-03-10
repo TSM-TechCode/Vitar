@@ -7,16 +7,18 @@
   <meta name="keyword" content=" ">
   <link rel="stylesheet" href="style/style.css">
   <script src="scripts/script.js" defer></script>
+  <script src="scripts/ReplaceScreen.js" defer></script>
   <title>Cursos Vitar</title>
 </head>
 <body>
+  <div class="other">
   <section id="#home">
     <nav>
       <h1>Vitar</h1>
       <a href="#home">home</a>
       <a href="#sobre">sobre nós</a>
       <a href="#cursos">cursos</a>
-  </nav>
+    </nav>
   <h2>Home</h2>
   <div class="container">
     <h4> Começar </h4>
@@ -31,15 +33,18 @@
       <p>A Vitar é um site criado para a disponibilização de cursos no momento gratis, estaremos atualizando o site o maximo possivel.</p>
     </div>
   </section>
+  </div>
   <section id="cursos">
   <!-- Capa -->
     <h2>Cursos</h2>
-    <img src="IMG_20260310133454_323.jpg" alt="Pense. Curso de Excel Básico">
-    <a href="#ExcelBasico">Curso de Excel Básico</a>
+    <div class="capa">
+      <img src="IMG_20260310133454_323.jpg" alt="Pense. Curso de Excel Básico">
+      <button class="excelBasico">Curso de Excel Básico</button>
+    </div>
     <!-- end Capa -->
     
     <!-- Divs -->
-    <div id="ExcelBasico">
+    <div id="ExcelBasico" style="display: none;">
       <p><strong>O que é o Excel? </strong>:O Excel é um software de planilha eletrônica da Microsoft. Serve para criar, editar e analisar dados em tabelas.↓↓↓</p>
       <p>- *Como podemos te ajudar com o Excel?.
       <p>A gente pode ajudar com dúvidas básicas, criar planilhas, ensinar fórmulas, formatação, gráficos, e mais!</p>
@@ -75,4 +80,4 @@
     <p>&copy;Vitar & TSM-TechCode. Todos os Direitos Reservados</p>
   </footer>
 </body>
-</html>
+                                          </html>
