@@ -43,3 +43,19 @@ footer {
   padding: 20px 2px;
   text-align: center;
 }
+.capa {
+  background-color: white;
+  border-radius: 18px;
+  margin: 18px;
+  padding: 80px 50px;
+}
+.excelBasico {
+  color: #1c39df;
+}
+#ExcelBasico {
+  margin: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 18px;
+  padding: 80px 50px;
+  }
