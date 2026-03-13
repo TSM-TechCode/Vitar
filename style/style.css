@@ -51,6 +51,8 @@ footer {
 }
 .excelBasico {
   color: #1c39df;
+  padding: 20px 50px;
+  border-radius: 12px;
 }
 #ExcelBasico {
   margin: 18px;
@@ -58,9 +60,8 @@ footer {
   color: black;
   border-radius: 18px;
   padding: 80px 50px;
-  }
-#IMGCapa {
-  width: 300px;
-  max-width: 300px;
-  height: auto;
 }
+#IMGCapa {
+  width: 220px;
+  height: auto;
+  }
