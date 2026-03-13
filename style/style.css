@@ -60,6 +60,7 @@ footer {
   padding: 80px 50px;
   }
 #IMGCapa {
-  width: 2000px;
+  width: 100%;
+  max-width: 600px;
   height: auto;
 }
