@@ -48,6 +48,10 @@ footer {
   border-radius: 18px;
   margin: 18px;
   padding: 80px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 .excelBasico {
   color: #1c39df;
