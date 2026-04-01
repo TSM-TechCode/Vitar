@@ -9,7 +9,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  grid: 2px;
   width: 100%;
   padding: 10px 2px;
   box-shadow: 0 6px 8px -4px rgba(0, 0, 0, 0.3);
@@ -42,6 +41,8 @@ footer {
   background-color: #091379;
   padding: 20px 2px;
   text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 .capa {
   background-color: white;
@@ -51,7 +52,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 25px;
 }
 .excelBasico {
   color: #1c39df;
@@ -66,6 +67,19 @@ footer {
   padding: 80px 50px;
 }
 #IMGCapa {
-  width: 220px;
+  width: 100%;
   height: auto;
-  }
+}
+.ExcelBasicoEP1 {
+  margin: 18px;
+  background-color: white;
+  color: black;
+  border-radius: 18px;
+  padding: 80px 50px;
+}
+.excelBasicoEp1 {
+  background-color: #1c39df;
+  color: white;
+  border-radius: 12px;
+  border-color: none;
+}
