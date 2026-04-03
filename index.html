@@ -4,19 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="descripition" content="Cursos">
-  <meta name="keyword" content=" ">
+  <meta name="keyword" content="Cursos/Courses">
   <link rel="stylesheet" href="style/style.css">
   <script src="scripts/script.js" defer></script>
   <script src="scripts/ReplaceScreen.js" defer></script>
   <title>Cursos Vitar</title>
 </head>
 <body>
-  <div class="other">
+  <div class="secLogin" style="display:none;">
+    <section id="login">
+      <div class="divLogin">
+        <h2>Login</h2>
+        <input type="text" id="user" placeholder="Usuario">
+        <input type="password" id="password" placeholder="Senha">
+        <button class="enviar">Enviar</button>
+        <button class="btn-createAccount">Criar Conta</button>
+      </div>
+      <div class="createAccount" style="display:none;">
+        <h2>Criar Conta</h2>
+        <input type="text" id="newUser" placeholder="Nome de Usuario">
+        <input type="password" id="newPassword" placeholder="Senha">
+        <input type="password" id="confirmNewPassword" placeholder="Confirme sua senha">
+        <button class="newEnviar">Enviar</button>
+      </div>
+    </section>
+  </div>
+  <div class="navbar">
     <header>
       <nav>
-        <div class="logo">
-          <h1>Vitar</h1>
-        </div>
+        <div class="logo"><h1>Vitar</h1></div>
         <div class="links">
           <a href="#home">home</a>
           <a href="#sobre">sobre nós</a>
@@ -24,61 +40,65 @@
         </div>
       </nav>
     </header>
-  <section id="home">
-  <h2>Home</h2>
-  <div class="container">
-    <h4> Começar </h4>
-    <div class="semi-btn">
-      <a href="#cursos">Entrar</a>
-    </div>
   </div>
-  </section>
-  <section id="sobre">
-    <h2>Sobre nós</h2>
-    <div class="paragrafos">
-      <p>A Vitar é um site criado para a disponibilização de cursos no momento gratis, estaremos atualizando o site o maximo possivel.</p>
+    <div class="secHome">
+      <section id="home">
+        <h2>Home</h2>
+        <div class="container">
+          <h4> Começar </h4>
+          <div class="semi-btn"><a href="#cursos">Entrar</a></div>
+        </div>
+      </section>
     </div>
-  </section>
+  <div class="secSobre">
+    <section id="sobre">
+      <h2>Sobre nós</h2>
+      <div class="paragrafos">
+        <p>A Vitar é um site criado para a disponibilização de cursos no momento gratis, estaremos atualizando o site o máximo possivel.</p>
+      </div>
+    </section>
   </div>
-  <section id="cursos">
-  <!-- Capa -->
-    <h2>Cursos</h2>
-    <div class="capa">
-      <img src="images/IMG_20260310_133454_323.jpg" alt="Pense. Curso de Excel Básico" id="IMGCapa">
-      <button class="excelBasico">Curso de Excel Básico</button>
-    </div>
-    <!-- end Capa -->
-    
-    <!-- Divs -->
-    <div id="ExcelBasico" style="display: none;">
-      <p><strong>O que é o Excel? </strong>:O Excel é um software de planilha eletrônica da Microsoft. Serve para criar, editar e analisar dados em tabelas.↓↓↓</p>
-      <p>- *Como podemos te ajudar com o Excel?.
-      <p>A gente pode ajudar com dúvidas básicas, criar planilhas, ensinar fórmulas, formatação, gráficos, e mais!</p>
-      <p>-*Como você deve usar?</p>
-      <p>- Abra o Excel e crie uma nova planilha.</p>
-      <p>- Insira dados em células (números, textos, datas).</p>
-      <p>- Use fórmulas para calcular e analisar dados.</p>
-      <p>- Formate a planilha para ficar mais fácil de ler.</p>
-      <p>- Salve sua planilha regularmente.</p>
+  <div class="secCursos">
+    <section id="cursos">
+    <!-- Capa -->
+      <h2>Cursos</h2>
+      <div class="capa">
+        <img src="images/IMG_20260310_133454_323.jpg" alt="Pense. Curso de Excel Básico" id="IMGCapa">
+        <button class="excelBasico">Curso de Excel Básico</button>
+      </div>
+      <!-- end Capa -->
+
+      <!-- Divs -->
+      <div id="ExcelBasico" style="display: none;">
+        <p><strong>O que é o Excel? </strong>:O Excel é um software de planilha eletrônica da Microsoft. Serve para criar, editar e analisar dados em tabelas.↓↓↓</p>
+        <p>- *Como podemos te ajudar com o Excel?.</p>
+        <p>A gente pode ajudar com dúvidas básicas, criar planilhas, ensinar fórmulas, formatação, gráficos, e mais!</p>
+        <p>-*Como você deve usar?</p>
+        <p>- Abra o Excel e crie uma nova planilha.</p>
+        <p>- Insira dados em células (números, textos, datas).</p>
+        <p>- Use fórmulas para calcular e analisar dados.</p>
+        <p>- Formate a planilha para ficar mais fácil de ler.</p>
+        <p>- Salve sua planilha regularmente.</p>
   
-      <p>Curso de Excel Básico: Aprenda a Dominar Planilhas!</p>
-      <p><strong>Módulo 1:</strong> Introdução ao Excel</p>
-      <p>- O que é o Excel e para que serve?</p>
-      <p>- Interface do Excel: células, colunas, linhas.</p>
-      <p>- Criando e salvando planilhas.</p>
-      <p><strong>Módulo 2</strong>: Trabalhando com Dados</p>
-      <p>- Inserindo dados (números, textos, datas).</p>
-      <p>- Editando e formatando células.
-     - Usando fórmulas básicas (soma, média, etc.).</p>
-      <p><strong>Módulo 3</strong>: Fórmulas e Funções:</p>
-      <p>- Aprendendo fórmulas essenciais.</p>
-      <p>- Usando funções lógicas (SE, E, OU).</p>
-      <p>- Criando gráficos simples.</p>
+        <p>Curso de Excel Básico: Aprenda a Dominar Planilhas!</p>
+        <p><strong>Módulo 1:</strong> Introdução ao Excel</p>
+        <p>- O que é o Excel e para que serve?</p>
+        <p>- Interface do Excel: células, colunas, linhas.</p>
+        <p>- Criando e salvando planilhas.</p>
+        <p><strong>Módulo 2</strong>: Trabalhando com Dados</p>
+        <p>- Inserindo dados (números, textos, datas).</p>
+        <p>- Editando e formatando células.
+         - Usando fórmulas básicas (soma, média, etc.).</p>
+        <p><strong>Módulo 3</strong>: Fórmulas e Funções:</p>
+        <p>- Aprendendo fórmulas essenciais.</p>
+        <p>- Usando funções lógicas (SE, E, OU).</p>
+        <p>- Criando gráficos simples.</p>
   
-      <p><strong>Módulo 4</strong>: Dicas e Práticas:</p>
-      <p>- Formatação condicional.</p>
-      <p>- Organização de dados.</p>
-      <p>- Salvando e compartilhando planilhas.</p>
+        <p><strong>Módulo 4</strong>: Dicas e Práticas:</p>
+        <p>- Formatação condicional.</p>
+        <p>- Organização de dados.</p>
+        <p>- Salvando e compartilhando planilhas.</p>
+     </div>
     </div>
     <!-- end Divs -->
   </section>
@@ -86,4 +106,4 @@
     <p>&copy;Vitar & TSM-TechCode. Todos os Direitos Reservados</p>
   </footer>
 </body>
-      </html>
+</html>
